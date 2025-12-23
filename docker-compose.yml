@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  frontend:
+    container_name: frontend
+    image: ayus654/online_shopping_app
+    ports:
+      - "80:80"
+
